@@ -1,0 +1,91 @@
+.main__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+.section__site_main_page_container{
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--violet--color);
+    background-color: var(--project-gray-color);
+    border-radius: 14px;
+    gap: 20px;
+}
+.aditional_bold{
+    font-weight: 900;
+}
+.div__text_under_logo, .div__text_under_image{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.p__text_under_logo{
+    width: 70%;
+    text-align: center;
+    color: var(--p-logo-text-color);
+}
+.logo__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.car__image{
+    width: 400px;
+}
+.p__text_under_image{
+    color: var(--pink--color);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.look_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.push{
+    background-color: var(--green-color);
+    color: var(--black-color);
+    width: 266px;
+    height: 63px;
+    border-radius: 100px;
+    font-size: 22px;
+    font-weight: 600;
+    box-shadow: 3px 8px 0px 0px #00C89640;
+
+}
+
+.card{
+    width: 250px;
+    height: 185px;
+    background-color: var(--card-color);
+    border: 2px solid var(--p-logo-text-color);
+    border-radius: 15px;
+
+
+}
+.section__site_main_page_information_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+
+}
