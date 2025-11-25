@@ -57,3 +57,17 @@ ul li{
     gap: 20px;
     padding: 50px;
 }
+
+.button{
+    background-color: var(--violet--color);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.button:hover{
+    background-color: var(--green-color);
+    color: var(--body-background);
+    transition-duration: 0.4s ;
+}
