@@ -1,0 +1,148 @@
+/* ===== CONTACTS PAGE ===== */
+
+.contacts_section {
+    width: 100%;
+    padding: 40px var(--padding--inside-header-right-and-left) 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Заголовок "ЗВ'ЯЖІТЬСЯ З НАМИ" */
+.contacts_title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 3px solid var(--violet--color);
+    padding-bottom: 10px;
+}
+
+/* Контейнер з двох блоків */
+.contacts_flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* ЛІВА КАРТКА З КОНТАКТАМИ */
+.contact_info_card {
+    width: 30%;
+    background-color: var(--project-gray-color);
+    border: 2px solid var(--p-logo-text-color);
+    border-radius: 16px;
+
+    /* ГОЛОВНЕ — ВІДСТУПИ У СТИЛІ МАКЕТУ */
+    padding: 45px 35px;     /* верх = 45, лівий = 35 (майже як на скріні) */
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;              /* відстань між блоками */
+}
+
+/* Рожеві заголовки */
+.contact_label {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--violet--color);
+    margin-bottom: 4px;
+}
+
+/* Основний білий текст */
+.contact_value {
+    font-size: 16px;
+    color: var(--pink--color);
+}
+
+/* Додатковий текст під адресою */
+.contact_sub {
+    font-size: 14px;
+    color: var(--p-logo-text-color);
+}
+
+
+
+/* ПРАВА КАРТКА — ФОРМА */
+.contact_form {
+    width: 60%;
+    background-color: var(--project-gray-color);
+    border: 2px solid var(--p-logo-text-color);
+    border-radius: 16px;
+    padding: 28px 32px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form_title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.contact_form label {
+    font-size: 14px;
+    color: var(--p-logo-text-color);
+}
+
+/* Інпути / селект / текстове поле */
+.contact_form input,
+.contact_form select,
+.contact_form textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 2px solid var(--p-logo-text-color);
+    background-color: var(--black-color);
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact_form input::placeholder {
+    color: var(--p-logo-text-color);
+}
+
+.contact_form input:focus,
+.contact_form select:focus,
+.contact_form textarea:focus {
+    outline: none;
+    border-color: var(--green-color);
+}
+
+/* Кнопка "ВІДПРАВИТИ ЗАЯВКУ" */
+.send_button {
+    width: 100%;
+    height: 58px;
+    border: none;
+    border-radius: 999px;
+
+    background-color: var(--violet--color); /* Бордова */
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* ХОВЕР */
+.send_button:hover {
+    background-color: var(--green-color); /* Зелена */
+    color: var(--black-color);            /* Чорний текст */
+    transform: translateY(1px);
+}
+
+
+/* АДАПТИВ */
+@media (max-width: 1000px) {
+    .contacts_flex {
+        flex-direction: column;
+    }
+
+    .contact_info_card,
+    .contact_form {
+        width: 100%;
+    }
+}
