@@ -75,7 +75,7 @@
 .form_title {
     font-size: 24px;
     font-weight: 700;
-    color: #fff;
+    color: var(--pink--color);
     margin-bottom: 12px;
 }
 
