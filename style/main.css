@@ -72,15 +72,7 @@
 
 }
 
-.card{
-    width: 250px;
-    height: 185px;
-    background-color: var(--card-color);
-    border: 2px solid var(--p-logo-text-color);
-    border-radius: 15px;
 
-
-}
 .section__site_main_page_information_container{
     display: flex;
     flex-direction: row;
@@ -89,3 +81,34 @@
     gap: 4rem;
 
 }
+.card{
+    width: 350px;
+    height: auto;
+    background-color: var(--card-color);
+    border: 2px solid var(--p-logo-text-color);
+    border-radius: 15px;
+    padding: 10px;
+
+
+}
+.card_title{
+    color: var(--violet--color);
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.card_subtitle{
+    color: var(--pink--color);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+.card_text{
+    font-style: italic;
+    color: var(--p-logo-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+

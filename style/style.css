@@ -2,6 +2,8 @@
 @import "reset.css";
 @import "header.css";
 @import "main.css";
+@import "footer.css";
+@import "services.css";
 
 body{
     background-color: var(--body-background);
