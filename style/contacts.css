@@ -10,7 +10,7 @@
 .contacts_title {
     font-size: 48px;
     font-weight: 700;
-    color: #fff;
+    color: var(--pink--color);
     border-bottom: 3px solid var(--violet--color);
     padding-bottom: 10px;
 }
