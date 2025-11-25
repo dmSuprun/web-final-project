@@ -168,7 +168,6 @@
     color: var(--p-logo-text-color);
 }
 
-/* Адаптив */
 @media (max-width: 1000px) {
     .about_top_block {
         flex-direction: column;

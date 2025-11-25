@@ -1,5 +1,3 @@
-/* ===== CONTACTS PAGE ===== */
-
 .contacts_section {
     width: 100%;
     padding: 40px var(--padding--inside-header-right-and-left) 80px;
@@ -33,12 +31,11 @@
     border: 2px solid var(--p-logo-text-color);
     border-radius: 16px;
 
-    /* ГОЛОВНЕ — ВІДСТУПИ У СТИЛІ МАКЕТУ */
-    padding: 45px 35px;     /* верх = 45, лівий = 35 (майже як на скріні) */
+    padding: 45px 35px;     
 
     display: flex;
     flex-direction: column;
-    gap: 32px;              /* відстань між блоками */
+    gap: 32px;              
 }
 
 /* Рожеві заголовки */
@@ -118,7 +115,7 @@
     border: none;
     border-radius: 999px;
 
-    background-color: var(--violet--color); /* Бордова */
+    background-color: var(--violet--color);
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -129,13 +126,13 @@
 
 /* ХОВЕР */
 .send_button:hover {
-    background-color: var(--green-color); /* Зелена */
-    color: var(--black-color);            /* Чорний текст */
+    background-color: var(--green-color); 
+    color: var(--black-color);            
     transform: translateY(1px);
 }
 
 
-/* АДАПТИВ */
+
 @media (max-width: 1000px) {
     .contacts_flex {
         flex-direction: column;
