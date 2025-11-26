@@ -178,5 +178,8 @@ a.active {
 
 .team_card:hover{
     -webkit-animation: wobble-hor-bottom 0.8s both;
+    animation: wobble-hor-bottom 0.8s both;
 }
+
+
 
