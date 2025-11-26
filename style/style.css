@@ -38,7 +38,6 @@ main {
 
 a.active {
     color: var(--green-color);
-    transition: color 0.2s ease;
 }
 
 
