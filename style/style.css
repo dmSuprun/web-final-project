@@ -36,6 +36,10 @@ main {
     flex: 1;           /* розтягує контент */
 }
 
+a.active {
+    color: var(--green-color);
+    transition: color 0.2s ease;
+}
 
 
 /*adaptive for index*/
